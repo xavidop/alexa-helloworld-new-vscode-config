@@ -1,0 +1,35 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:542527585830:function:7fe22760-f5ac-49f5-95ff-eab361727234:Release_0"
+        },
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:542527585830:function:7fe22760-f5ac-49f5-95ff-eab361727234:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:542527585830:function:7fe22760-f5ac-49f5-95ff-eab361727234:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:542527585830:function:7fe22760-f5ac-49f5-95ff-eab361727234:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Hello World Skill"
+        }
+      }
+    }
+  }
+}
