@@ -118,7 +118,7 @@ When we invocate the Alexa skill from the Simulator and you have run your AWS La
 So this means that the code that is executing is the code that we have on our lambda folder locally! Let's put some breakpoints and see if that works:
 
 
-![image](/img/breakpoins.png)
+![image](/img/breakpoints.png)
 
 **voilà**
 
