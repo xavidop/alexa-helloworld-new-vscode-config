@@ -10,7 +10,7 @@ During the last months, the Alexa Team has launched a bunch of useful tools for 
   - [Creating the Visual Studio Configuration](#creating-the-visual-studio-configuration)
   - [Alexa Simulator](#alexa-simulator)
   - [Launching and debugging our Alexa Skill locally](#launching-and-debugging-our-alexa-skill-locally)
-  - [Video with full explanation](#video-with-full-explanation)
+  - [Video with the full explanation](#video-with-the-full-explanation)
   - [Resources](#resources)
   - [Conclusion](#conclusion)
 
@@ -126,7 +126,7 @@ So this means that the code that is executing is the code that we have on our la
 
 And that's it, here you have the full explanation in an Alexa Office EU Hours session with me and Gaetano Ursomano from the Alexa team.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9g1grjLBZOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9g1grjLBZOc/0.jpg)](https://www.youtube.com/watch?v=9g1grjLBZOc)
 
 
 ## Resources
