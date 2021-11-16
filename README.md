@@ -91,7 +91,7 @@ Creating this configuration you will be able to run your AWS directly on your VS
 ![image](./img/debug-tap.png)
 
 
-And you will se this output on your Debug Console:
+And you will see this output on your Debug Console:
 
 ![image](./img/debug-console.png)
 
