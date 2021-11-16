@@ -1,6 +1,6 @@
 # New VS Code Debugging Tools for Alexa
 
-During the last months the Alexa Team has launched a bunch of useful tools for Visual Studio Code. The purpose of this new features is to have a single place with everything setup. Also having all these tools in the same place, we do not have to switch between multiple apps or tabs. In this articel I will show you how you can have a fully dev env for Alexa Skills on Visual Studio Code
+During the last months, the Alexa Team has launched a bunch of useful tools for Visual Studio Code. The purpose of these new features is to have a single place with everything set up. Also having all these tools in the same place, we do not have to switch between multiple apps or tabs. In this article I will show you how you can have a full dev env for Alexa Skills on Visual Studio Code
 
 <!-- TOC -->
 
@@ -27,9 +27,9 @@ Here you have the technologies used in this project
 
 The first step we need to do to enable local debugging on our Visual Studio Code is basically just adding 2 packages npm: `ask-sdk-model` and `ask-sdk-local-debug`. The first one you should already have it, but it is worth it to upgrade it to the latest version. You should use `v1.29.0` or higher!
 
-The second package, `ask-sdk-local-debug`, is the most important one, this is a `devDependency` instead of a normal `dependency`. Why? well we just need it only for development purposes. This package is the one that we are going to use to launch our AWS Lambda locally and intercept all the calls from the Alexa Cloud Service.
+The second package, `ask-sdk-local-debug`, is the most important one, this is a `devDependency` instead of a normal `dependency`. Why? well, we just need it only for development purposes. This package is the one that we are going to use to launch our AWS Lambda locally and intercept all the calls from the Alexa Cloud Service.
 
-To install this dependencies you have to run these commands:
+To install these dependencies you have to run these commands:
 1. For npm:
 ```bash
     npm install --save ask-sdk-model@^1.29.0
@@ -41,7 +41,7 @@ To install this dependencies you have to run these commands:
     yarn add ask-sdk-local-debug --dev
 ```
 
-With these packages installed/updated we have a done a good progress!! Let's continue with the following steps.
+With these packages installed/updated we have done good progress on this journey!! Let's continue with the following steps.
 
 ## Creating the Visual Studio Configuration
 
@@ -84,22 +84,22 @@ Let's explain a little bit deeper the most relevant parameters that we have in t
    2. `skillId`: the id of our Alexa Skill
    3. `handlerName`: the name of the object created on our AWS Lambda that will get all the invocations
    4. `skillEntryFile`: where is the handler located (In which file).
-   5. `region`; the region of **YOUR** Alexa developer account. I set to EU because my account is from Europe. The available values are: NA(North America), FE(Far East), EU(Europe).
+   5. `region`; the region of **YOUR** Alexa developer account. I set to EU because my account is from Europe. The available values are NA(North America), FE(Far East), EU(Europe).
 
 Creating this configuration you will be able to run your AWS directly on your VS Code from the debug tab:
 
 ![image](./img/debug-tap.png)
 
 
-And you will se this output on you Debug Console:
+And you will se this output on your Debug Console:
 
 ![image](./img/debug-console.png)
 
-After this, you can setup all the breakpoints you want.
+After this, you can set up all the breakpoints you want.
 
 ## Alexa Simulator
 
-When you install the Alexa Extension on your VS Code you will see the Alexa icon on the left side bar. Clicking there you will see a lot of options that you can use for your daily development like downloading the interaction model, APL viewer, download the Skill manifest, deploy your Alexa Skill or directly test your Skill within VS Code:
+When you install the Alexa Extension on your VS Code you will see the Alexa icon on the left sidebar. Clicking there you will see a lot of options that you can use for your daily development like downloading the interaction model, APL viewer, downloading the Skill manifest, deploying your Alexa Skill or directly testing your Skill within VS Code:
 
 ![image](./img/alexa-extension.png)
 
@@ -107,7 +107,7 @@ If we click on the Simulator, we will have a screen very similar to the Test tab
 
 ![image](./img/simulator.png)
 
-Having these nice tools properly set, its time to launch our Alexa Skill and see if the code stops on the breakpoints.
+Having these nice tools properly set, it's time to launch our Alexa Skill and see if the code stops on the breakpoints.
 
 ## Launching and debugging our Alexa Skill locally
 
@@ -122,9 +122,9 @@ So this means that the code that is executing is the code that we have on our la
 
 **voilà**
 
-## Video with full explanation
+## Video with the full explanation
 
-And that's it, here you have the full code running in an Alexa Office EU Hours session with me and Gaetano Ursomano from the Alexa team.
+And that's it, here you have the full explanation in an Alexa Office EU Hours session with me and Gaetano Ursomano from the Alexa team.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9g1grjLBZOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -135,7 +135,7 @@ And that's it, here you have the full code running in an Alexa Office EU Hours s
 
 ## Conclusion 
 
-As you can see the amazon team has created nice tools to have everything in the same ecosystem. Looking forward to see what you are going to develop!
+As you can see the amazon team has created nice tools to have everything in the same ecosystem. Looking forward to seeing what you are going to develop!
 
 I hope this example project is useful to you.
 
